@@ -40,7 +40,7 @@ const Hero = () => {
             </div>
 
             <a
-              href="https://wa.me/5583988231994"
+              href="https://wa.me/5583988231994?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta"
               target="_blank"
               rel="noopener noreferrer"
               className="hero-cta-btn"

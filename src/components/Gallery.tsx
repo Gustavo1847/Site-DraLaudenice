@@ -35,7 +35,7 @@ const Gallery = () => {
 
         <div className="grid lg:grid-cols-2 gap-8">
           {cases.map((case_item, index) => (
-            <div 
+            <div
               key={index}
               className="bg-gradient-to-br from-[#FFFDF9] to-[#F5F0E8] rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 border border-[#E8C2A0]"
             >
@@ -54,9 +54,9 @@ const Gallery = () => {
               <div className="flex items-center justify-center gap-2">
                 {/* Imagem Antes */}
                 <div className="space-y-2">
-                  <img 
-                    src={case_item.before} 
-                    alt="Antes do tratamento" 
+                  <img
+                    src={case_item.before}
+                    alt="Antes do tratamento"
                     className="w-full max-w-[300px] aspect-[4/3] object-cover rounded-xl"
                   />
                   <p className="text-sm font-medium text-gray-700 text-center">Antes</p>
@@ -67,22 +67,22 @@ const Gallery = () => {
 
                 {/* Imagem Depois */}
                 <div className="space-y-2">
-                  <img 
-                    src={case_item.after} 
-                    alt="Depois do tratamento" 
+                  <img
+                    src={case_item.after}
+                    alt="Depois do tratamento"
                     className="w-full max-w-[300px] aspect-[4/3] object-cover rounded-xl"
                   />
                   <p className="text-sm font-medium text-gray-700 text-center">Depois</p>
                 </div>
-              </div>      
+              </div>
             </div>
           ))}
         </div>
         {/* Botão Final */}
         <div className="text-center mt-12">
-          <a 
-            href="https://wa.me/5583988231994" 
-            target="_blank" 
+          <a
+            href="https://wa.me/5583988231994?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta"
+            target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-[#E8C2A0] text-[#3D3D3D] px-8 py-4 rounded-full text-lg font-semibold hover:bg-[#D4A974] transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
           >

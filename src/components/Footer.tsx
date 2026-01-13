@@ -44,9 +44,9 @@ const Footer = () => {
               <p>João Pessoa, PB</p>
               <p className="text-[#E8C2A0] font-medium">(83) 9 9800-3674</p>
             </div>
-            <a 
-              href="https://wa.me/5583988231994" 
-              target="_blank" 
+            <a
+              href="https://wa.me/5583988231994?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta"
+              target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-[#E8C2A0] text-[#3D3D3D] px-6 py-3 rounded-full font-medium hover:bg-[#D4A974] transition-all duration-300"
             >

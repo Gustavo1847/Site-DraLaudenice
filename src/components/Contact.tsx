@@ -19,7 +19,7 @@ const Contact = () => {
           <div className="space-y-8">
             <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100">
               <h3 className="text-2xl font-bold text-[#3D3D3D] mb-8">Entre em Contato</h3>
-              
+
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <div className="w-12 h-12 bg-gradient-to-r from-[#B88A44] to-[#E8C2A0] rounded-full flex items-center justify-center flex-shrink-0">
@@ -60,9 +60,9 @@ const Contact = () => {
               </div>
 
               <div className="mt-8 pt-8 border-t border-gray-200">
-                <a 
-                  href="https://wa.me/5583988231994" 
-                  target="_blank" 
+                <a
+                  href="https://wa.me/5583988231994?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="w-full bg-[#E8C2A0] text-[#3D3D3D] px-8 py-4 rounded-full text-lg font-semibold hover:bg-[#D4A974] transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl flex items-center justify-center space-x-3"
                 >
@@ -78,7 +78,7 @@ const Contact = () => {
 
           <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100">
             <h3 className="text-2xl font-bold text-[#3D3D3D] mb-8">Por que escolher a Dra. Laudenice?</h3>
-            
+
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
                 <div className="w-3 h-3 bg-[#B88A44] rounded-full mt-2 flex-shrink-0"></div>
