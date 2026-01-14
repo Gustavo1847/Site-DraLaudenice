@@ -13,7 +13,7 @@ const Bio = () => {
             underline: false,
         },
         {
-            title: "NOSSOS SERVIÇOS",
+            title: "ESPECIALIDADES",
             url: "/#servicos",
             underline: false,
         },
