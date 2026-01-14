@@ -8,18 +8,8 @@ const Bio = () => {
             underline: false,
         },
         {
-            title: "LOCALIZAÇÃO",
-            url: "https://maps.app.goo.gl/qkmr9WECv1LiA8rq5",
-            underline: false,
-        },
-        {
             title: "NOSSOS SERVIÇOS",
-            url: "/servicos",
-            underline: false,
-        },
-        {
-            title: "SITE",
-            url: "https://dralaudenice.com.br",
+            url: "/#servicos",
             underline: false,
         },
     ];
