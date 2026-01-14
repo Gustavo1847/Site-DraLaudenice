@@ -96,7 +96,7 @@ const Bio = () => {
                         <a
                             key={index}
                             href={link.url}
-                            target={link.url.startsWith("http") ? "_self" : "_self"}
+                            target="_self"
                             rel={link.url.startsWith("http") ? "noopener noreferrer" : ""}
                             className="w-full block transform transition-transform duration-200 hover:-translate-y-1"
                         >
